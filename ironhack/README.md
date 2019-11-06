@@ -1,7 +1,7 @@
 # My Learning
 Learning more about coding.
 
-###Ironhack Coding Challenge
+### Ironhack Coding Challenge
 https://www.onlineexambuilder.com/ironhack-miami-web-development-coding-challenge-2/exam-291866
 
 **NOTES FROM NICK**
