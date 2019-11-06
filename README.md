@@ -21,3 +21,6 @@ Here are some exercises that should prepare you for the upcoming coding challeng
 - [Exercise 3: “Rock Paper Scissors!” (Conditionals)](https://www.codewars.com/kata/rock-paper-scissors/train/javascript)
 - [Exercise 4: “Opposites Attract” (Conditionals and modulo operator)](https://www.codewars.com/kata/opposites-attract/train/javascript)
 - [Exercise 5: “Sum of positive” (Conditionals and loops)](https://www.codewars.com/kata/sum-of-positive/train/javascript)
+
+### My Solutions
+- [Exercise 1: Even or Odd](https://github.com/mrsdo/MyLearning/blob/master/ironhack/even-or-odd.js)
