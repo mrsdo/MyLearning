@@ -25,3 +25,6 @@ Here are some exercises that should prepare you for the upcoming coding challeng
 ### My Solutions
 - [Exercise 1: Even or Odd](https://github.com/mrsdo/MyLearning/blob/master/ironhack/01-even-or-odd.js)
 - [Exercise 2: Count the Monkeys](https://github.com/mrsdo/MyLearning/blob/master/ironhack/02-monkey-count.js)
+- [Exercise 3: Rock Paper Scissors](https://github.com/mrsdo/MyLearning/blob/master/ironhack/03-rock-paper-scissors.js)
+- [Exercise 4: Opposites Attract](https://github.com/mrsdo/MyLearning/blob/master/ironhack/04-opposites-attrack.js)
+- [Exercise 5: Sum of positive](https://github.com/mrsdo/MyLearning/blob/master/ironhack/05-sum-positive.js)

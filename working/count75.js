@@ -18,7 +18,7 @@ while (i < 75) {
     if(i % 5 === 0){
         console.log("Duck duck");
     }
-//Step 4
+//Step 4z
 //If the number is a multiple of 3 and 5, print the word “Duck duck goose!”.
 // Otherwise, print the number:
     if(i % 3 === 0 || i % 5 === 0){

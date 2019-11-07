@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>03 Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="../RPS-JS/rps.css">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <title> Javascript Rock Paper Scissors Demo</title>
+
+</head>  
+<body>
+<!-- [THE GAME WRAPPER] -->
+<h1>
+    ROCK, PAPER, SCISSORS!
+</h1>
+  <div id="placeholder">
+
+      <!-- YOU -->
+      <div id="rps-you" style="border-right: 1px solid gray">
+
+          <p>YOUR MOVE</p>
+
+          <div id="rps-you-move">
+              <script>
+                  function myPlay(){
+                      //vars
+                      let choiceArr = ['scissors', 'rock', 'paper'];
+                      let a = choiceArr[Math.floor(Math.random() * choiceArr.length)];
+                      document.getElementById("rps-you-move").innerHTML = a;
+                      document.getElementById("you").innerHTML = a;
+                  }
+              </script>
+
+          </div>
+
+
+      </div>
+
+      <!-- END YOU -->
+
+
+      <!--COMPUTER PLAYS -->
+      <div id="rps-com">
+
+          <p>COMPUTER'S MOVE</p>
+
+          <div id="rps-com-move">
+              <script>
+                  function myPlay2(){
+                      //vars
+                      let choiceArr = ['scissors', 'rock', 'paper'];
+                      let b = choiceArr[Math.floor(Math.random() * choiceArr.length)];
+                      document.getElementById("rps-com-move").innerHTML = b;
+                      document.getElementById("com").innerHTML = b;
+
+              </script>
+
+          </div>
+      </div>
+
+  </div>
+      <!-- END COMPUTER -->
+
+  </div>
+<!-- End WRAPPER -->
+
+  <button id="button" onclick="myPlay(); myPlay2(); winner()">let's play</button>
+<!-- [SCOREBOARD] -->
+
+
+    <div id="rps-score">
+        You - <span id="you">0</span> |
+        Computer - <span id="com">0</span> |
+        Winner - <span id="win">0</span>
+    </div>
+
+
+
+<!-- [SCOREBOARD] -->
+
+</body>
+</html>
+<!-- partial -->
+<script>
+    function winner(){
+        //vars
+        rps.eYou = document.getElementById("rps-you-move");
+        rps.eCom = document.getElementById("rps-com-move");
+        document.getElementById("win").innerHTML = b;
+
+    }
+</script>
+
+</body>
+</html>
