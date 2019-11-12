@@ -1,83 +1,63 @@
-let choiceArr = ['scissors', 'rock', 'paper'];
+function myPlay(a) {
+    //vars
+    let choiceArr = ['scissors', 'rock', 'paper'];
+    a = choiceArr[Math.floor(Math.random() * choiceArr.length)];
+    console.log("");
+    console.log("Your Play: " + a);
+    return a;
+}//myPlay();
 
-let randomPick = Math.floor(Math.random() * choiceArr.length );
+function myPlay2(b){
+    let choiceArr = ['scissors', 'rock', 'paper'];
+    b = choiceArr[Math.floor(Math.random() * choiceArr.length)];
+    console.log("");
+    console.log("Computer Play: " + b);
+    console.log("");
+    return b;
+}//myPlay2();
 
-/*  Step 1. Create a function to pick a random play */
-function myPlay() {
-    console.log(choiceArr[randomPick]);
-
-}myPlay();
-
-/*Convert to document.getElement.html
-var dice = {
-  sides: 6,
-  roll: function () {
-    var randomNumber = Math.floor(Math.random() * this.sides) + 1;
-    return randomNumber;
-  }
-}
-*/
-
-//Prints results to web page
-
-function showMe() {
-  let choiceArr = ['scissors', 'rock', 'paper'];
-  let showMe = choiceArr.toString();
-  let placeholder = document.getElementById('placeholder').innerHTML = showMe;
-}
-
-
-
-
-//Prints roll to the page  console.log(choiceArr[randomPick]);
-
-/*function myPlay() {
-  let placeholder = document.getElementById('placeholder');
-  placeholder.innerHTML = (String);
-}*/
-
-/*
-var button = document.getElementById('button');
-
-button.onclick = function() {
-  let result = showMe.roll();
-  myPlay(result);
-};*/
-
-/*let showMe = {
-
-
-  choiceArr: 3,
-
-  roll: function () {
-
-    let myRoll = ['scissors', 'rock', 'paper'];
-
-    let randomPick = Math.floor(Math.random() * myRoll.length) + 1;
-
-    return randomPick;
-
-  }
-
-}*/
-
-
-
-
-
-
-
-//Prints roll to the page  console.log(choiceArr[randomPick]);
-
-/*function myPlay() {
-  let placeholder = document.getElementById('placeholder');
-  placeholder.innerHTML = (String);
-}*/
-
-/*
-var button = document.getElementById('button');
-
-button.onclick = function() {
-  let result = showMe.roll();
-  myPlay(result);
-};*/
+function whoWin(x,y){
+    x = myPlay();
+    y = myPlay2();
+    
+        //Scissors
+    if(x === 'scissors' && y === 'paper'){
+        
+        console.log("Scissors win");
+        
+    }else if(x === "scissors" && y === 'scissors'){
+        
+        console.log("It's a draw");
+        
+    }else if(x === "scissors" && y === "rock"){
+        
+        console.log("Rock Wins");
+        
+        //Paper
+    } else if(x === 'paper' && y === 'scissors'){
+        
+        console.log("Paper loses");
+    
+    }else if(x === "paper" && y === 'paper'){
+        
+        console.log("It's a draw");
+    
+    }else if(x === "paper" && y === "rock") {
+        
+        console.log("Paper Wins");
+    }
+    //rock
+    else if(x === 'rock' && y === 'scissors'){
+    
+    console.log("Rock Wins");
+    
+    }else if(x === "rock" && y === 'rock'){
+    
+    console.log("It's a draw");
+    
+    }else if(x === "rock" && y === "paper") {
+    
+    console.log("Paper Wins");
+    }
+    
+}whoWin();

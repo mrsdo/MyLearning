@@ -57,16 +57,23 @@ function monkeyCount(n){
 
 }monkeyCount(10);*/
 
-let i = 0;
-let n = Array.from(String(i), Number);
-function monkeyCount(n) {
 
+
+
+
+function monkeyCount(n) {
+    
+    
+    let i = 0;
+    n = Array.from(String(i), Number);
+    
     while (i < n ){
         i++;
         //console.log(i);
 
         console.log(i);
     }
-}monkeyCount(15);
+}   monkeyCount(15);
+
 
 
