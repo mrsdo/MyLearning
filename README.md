@@ -1,10 +1,6 @@
-# Authentication Work
- I want to create an authentication to my CRM ZOHO. 
- ##Features
- * Landing Page
- * Login Page
- * Login Script to Authentication
- 
- -- To Do --
- + Research how to authenticate to Zoho 
+# A Simple Portfolio for learning
+This is a personal learning journey based on topics I'm intersted in.
+
+- [Ironhack Prep](https://github.com/mrsdo/MyLearning/tree/master/ironhack)
+This is mostly Javascript coding working with arrays, conditionals, functions, etc.
  
