@@ -76,6 +76,7 @@
         line-height: 140%;
     }
 </style>
+<link href="images.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -95,35 +96,12 @@
         </ul>
   </section>
     <section id="scope" class="text">
-        <h2>29 Signals, LLC.</h2>
-        <p>Educational website featuring small business apps I'm working on.  This will later track to my <a href="https://martidolce.com">martidolce.com</a> site for Ph.D work presented as case-studies or my learning.</p>
-    </section>
-    <hr/>
-<!-- END MY CONTENT HERE -->
-<?php if ($str_language == 'de'): ?>
-
-    <p class="text"><strong>Der virtuelle <span lang="en" xml:lang="en">Host</span> wurde erfolgreich eingerichtet.</strong></p>
-    <p class="text">Wenn Sie diese Seite sehen, dann bedeutet dies, dass der neue virtuelle <span lang="en" xml:lang="en">Host</span> erfolgreich eingerichtet wurde. Sie können jetzt Ihren <span lang="en" xml:lang="en">Web</span>-Inhalt hinzufügen, diese Platzhalter-Seite<sup><a href="#footnote_1">1</a></sup> sollten Sie ersetzen <abbr title="beziehungsweise">bzw.</abbr> löschen.</p>
-    <p class="text">
-        Server-Name: <samp><?php echo $_SERVER['SERVER_NAME']; ?></samp><br />
-        Document-Root: <samp><?php echo $_SERVER['DOCUMENT_ROOT']; ?></samp><br />
-        Protokoll: <samp>
-        <?php
-            if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
-                echo 'https';
-            } else {
-                echo 'http';
-            }
-        ?>
-        </samp>
-    </p>
-    <p class="text" id="footnote_1"><small><sup>1</sup> Dateien: <samp>index.php</samp> und <samp>MAMP-PRO-Logo.png</samp></small></p>
-    <hr />
-    <p class="text">This page in: <?php echo $str_available_languages; ?></p>
-
-<?php elseif ($str_language == 'en'): ?>
-
-    <p class="text"><strong>The virtual host was set up successfully.</strong></p>
+        <h2>Project: 29 Signals, LLC. CRM Integration</h2>
+        <p>Educational website featuring small business apps I'm working on.  This will later track to my <a href="https://martidolce.com">martidolce.com</a> site for Ph.D work presented as case-studies or my learning.&nbsp;Below is a list of Items I'm interested in researching&nbsp;with appropriate links to projects.&nbsp; I'll need to update this in the ReadMe.</p>
+        </section>
+<section id="environment" class="text"><h2>Environment</h2>
+    
+     <p class="text"><strong>The virtual host was set up successfully.</strong></p>
     <p class="text">If you can see this page, your new virtual host was set up successfully. Now, web content can be added and this placeholder page<sup><a href="#footnote_1">1</a></sup> should be replaced or deleted.</p>
     <p class="text">
         Server name: <samp><?php echo $_SERVER['SERVER_NAME']; ?></samp><br />
@@ -140,10 +118,36 @@
     </p>
     <p class="text" id="footnote_1"><small><sup>1</sup> Files: <samp>index.php</samp> and <samp>MAMP-PRO-Logo.png</samp></small></p>
     <hr />
-    <p class="text">Diese Seite auf: <?php echo $str_available_languages; ?></p>
-
-<?php endif; ?>
     
-
+    
+    </section>
+        
+        <section id="projectlist" class="text">
+        <h3>Goal List</h3>
+        <ul>
+          <li>Authentication.&nbsp; I need to authenticate and track my users. User management app:  Application should present a basic landing page to the user with a login option.&nbsp; There are a variety of ways to authenticate a user, but&nbsp;I'm curious about using methods that authenticate using API's.&nbsp; 
+            <ul>
+              <li>Target&nbsp;Source:&nbsp;&nbsp;<a href="https://crmplus.zoho.com/twenty9signals/index.do/cxapp/crm/org700632918/tab/Home/begin" target="new">Zoho CRM</a></li>
+              <li>Resource List:
+                <ul>
+                  <li><a href="https://crmplus.zoho.com/twenty9signals/index.do/cxapp/crm/org700632918/settings/connections" target="new">Zoho Connections</a> Requirements:</li>
+                  <li><a href="https://www.zoho.com/developer/help/api/using-authentication-token.html" target="new">Zoho Developer - Authentication</a> Requirements:&nbsp;
+                    <ul>
+                      <li>permission to access the API service - <a href="https://crmplus.zoho.com/twenty9signals/index.do/cxapp/crm/org700632918/settings/api/usage/graph-view" target="new">VERIFY</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="https://accounts.zoho.com/developerconsole" target="new">My Zoho Developer Connector</a></li>
+            </ul>
+          </li>
+          </ul>
+        <h3>&nbsp;</h3>
+        <h3><a name="WordPress_Connector" id="WordPress_Connector" target="_blank" rel="noopener"></a>Authenticate using PHP SDK</h3>
+        <p>Resource:&nbsp;<a href="https://www.zoho.com/crm/developer/docs/server-side-sdks/php.html">https://www.zoho.com/crm/developer/docs/server-side-sdks/php.html</a></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </section>
+<!-- END MY CONTENT HERE -->
 </body>
 </html>

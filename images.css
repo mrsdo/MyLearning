@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.pimage{
+    width:25%; 
+   
+}/* CSS Document */
+.pimageMed{
+	width: 50%;   
+}
+.pimageLrg{
+	width: 75%;
+}
