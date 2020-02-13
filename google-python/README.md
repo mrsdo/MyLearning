@@ -1,7 +1,4 @@
-# My Learning
-Learning more about coding.
-
-### Google IT Automation with Python Professional Certificate
+# My Learning: Google IT Automation with Python Professional Certificate
 https://www.coursera.org/professional-certificates/google-it-automation
 
 
