@@ -125,26 +125,12 @@
         <section id="projectlist" class="text">
         <h3>Goal List</h3>
         <ul>
-          <li>Authentication.&nbsp; I need to authenticate and track my users. User management app:  Application should present a basic landing page to the user with a login option.&nbsp; There are a variety of ways to authenticate a user, but&nbsp;I'm curious about using methods that authenticate using API's.&nbsp; 
-            <ul>
-              <li>Target&nbsp;Source:&nbsp;&nbsp;<a href="https://crmplus.zoho.com/twenty9signals/index.do/cxapp/crm/org700632918/tab/Home/begin" target="new">Zoho CRM</a></li>
-              <li>Resource List:
-                <ul>
-                  <li><a href="https://crmplus.zoho.com/twenty9signals/index.do/cxapp/crm/org700632918/settings/connections" target="new">Zoho Connections</a> Requirements:</li>
-                  <li><a href="https://www.zoho.com/developer/help/api/using-authentication-token.html" target="new">Zoho Developer - Authentication</a> Requirements:&nbsp;
-                    <ul>
-                      <li>permission to access the API service - <a href="https://crmplus.zoho.com/twenty9signals/index.do/cxapp/crm/org700632918/settings/api/usage/graph-view" target="new">VERIFY</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="https://accounts.zoho.com/developerconsole" target="new">My Zoho Developer Connector</a></li>
+          <li>Create a PHP Login and Registration System from Scratch 2020<br /><a href="https://accounts.zoho.com/developerconsole" target="new">https://subscription.packtpub.com/video/Web-Development/9781800569836/</a></li>
             </ul>
+            
           </li>
           </ul>
-        <h3>&nbsp;</h3>
-        <h3><a name="WordPress_Connector" id="WordPress_Connector" target="_blank" rel="noopener"></a>Authenticate using PHP SDK</h3>
-        <p>Resource:&nbsp;<a href="https://www.zoho.com/crm/developer/docs/server-side-sdks/php.html">https://www.zoho.com/crm/developer/docs/server-side-sdks/php.html</a></p>
+       
         <p>&nbsp;</p>
         <p>&nbsp;</p>
     </section>
